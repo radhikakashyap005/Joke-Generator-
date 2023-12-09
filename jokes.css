@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(195, 221, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgb(150, 255, 139);
+    width: 35%;
+    
+  }
+  
+  .joke-container {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #afafaf;
+    border-radius: 5px;
+    background-color: #fffbfb;
+  }
+  
+  #generate-btn {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
